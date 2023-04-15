@@ -175,7 +175,7 @@ body {
 .study-1 {
     width: 24%;
     height: 200px;
-    background: url(/studyimage/st_ox_undergrad2.jpg) no-repeat;
+    background: url(./studyimage/st_ox_undergrad2.jpg) no-repeat;
     background-size: cover;
     object-fit: cover;
     margin-left: 10px;
@@ -186,7 +186,7 @@ body {
 .study-2 {
     width: 24%;
     height: 200px;
-    background: url(/studyimage/st_ox_grad3.jpg) no-repeat;
+    background: url(./studyimage/st_ox_grad3.jpg) no-repeat;
     background-size: cover;
     object-fit: cover;
     margin-left: 10px;
@@ -197,7 +197,7 @@ body {
 .study-3 {
     width: 24%;
     height: 200px;
-    background: url(/studyimage/st_ox_conted2.jpg) no-repeat;
+    background: url(./studyimage/st_ox_conted2.jpg) no-repeat;
     background-size: cover;
     object-fit: cover;
     margin-left: 10px;
@@ -208,7 +208,7 @@ body {
 .study-4 {
     width: 24%;
     height: 200px;
-    background: url(/studyimage/st_ox_current4.jpg) no-repeat;
+    background: url(./studyimage/st_ox_current4.jpg) no-repeat;
     background-size: cover;
     object-fit: cover;
     margin-left: 10px;
