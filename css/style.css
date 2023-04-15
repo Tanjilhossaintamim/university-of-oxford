@@ -1,0 +1,469 @@
+/* common code section start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F3F1EC;
+}
+
+/* common code section end  */
+
+/* navbar section start here  */
+.nav-bar {
+    background-color: #002147;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #D7FDFF;
+}
+
+.logo {
+    width: 100px;
+    border: 2px solid #D7FDFF;
+}
+
+.dropdownitems {
+    color: #2F72A8;
+}
+
+.navlink-li {
+    border-right: .5px solid rgb(18, 46, 113);
+}
+
+.navlink-li:hover {
+    background-color: #2F72A8;
+
+}
+
+.navlink-li>a:hover {
+    color: #D7FDFF;
+
+}
+
+.otherslink {
+
+    margin-left: .3rem;
+
+
+}
+
+.otherslink li {
+    display: inline;
+    margin-right: .5rem;
+    text-align: left;
+}
+
+.otherslink li:last-child {
+    margin-right: 0;
+}
+
+.otherslink li a {
+    text-decoration: none;
+    color: #D7FDFF;
+}
+
+
+/* navbar section end here  */
+/* carousel slide section start here  */
+.crosel-slide h1 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-weight: 1000;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.crosel-slide p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/* carousel slide section end here  */
+
+/* news section start here  */
+#news {
+    background-color: #F3F1EC;
+    margin-top: 40px;
+}
+
+.crd {
+    margin-right: 4.5rem;
+}
+
+.cardbody {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardbody a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.crd-img {
+    opacity: 0.9;
+}
+
+.card:hover .crd-img {
+    opacity: 1;
+}
+
+.card:hover .cardbody a {
+    color: #BE0F34;
+}
+
+.event-title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.event-title a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.event-title a:hover {
+    color: rgba(200, 50, 50, 0.687);
+}
+
+.news-title {
+    text-decoration: none;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+/* news section end here  */
+
+/* discover section start here  */
+#discover {
+    margin-top: 40px;
+    background-color: #E0DED9;
+}
+
+#discover>.card {
+    background-color: #E0DED9;
+}
+
+
+/* discover section end here  */
+
+/* study section start here  */
+#study {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.study-1 {
+    width: 24%;
+    height: 200px;
+    background: url(/studyimage/st_ox_undergrad2.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.study-2 {
+    width: 24%;
+    height: 200px;
+    background: url(/studyimage/st_ox_grad3.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.study-3 {
+    width: 24%;
+    height: 200px;
+    background: url(/studyimage/st_ox_conted2.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.study-4 {
+    width: 24%;
+    height: 200px;
+    background: url(/studyimage/st_ox_current4.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.title {
+    height: 50px;
+    text-align: center;
+    background-color: #e7e2dda8;
+
+    font-weight: 1000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.title a:hover {
+    color: #BE0F34;
+}
+
+.title .h4 i {
+    color: #776d6d;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+/* study section end here  */
+
+/* contact section start here  */
+#contact {
+    background-color: #002147;
+    color: white;
+}
+
+.cpa {
+    background-color: #FD8100;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.cpa:hover {
+    background-color: white;
+}
+
+.cpa:hover .cap {
+    color: #FD8100;
+}
+
+.you {
+    background-color: red;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.you:hover {
+    background-color: white;
+}
+
+.you:hover .youtube {
+    color: #BE0F34;
+}
+
+.fb {
+    background-color: #39579B;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.fb:hover {
+    background-color: white;
+}
+
+.fb:hover .facebook {
+    color: #39579B;
+}
+
+
+
+.twi {
+    background-color: #01ABF0;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.twi:hover {
+    background-color: white;
+}
+
+.twi:hover .twitter {
+    color: #01ABF0;
+}
+
+.in {
+    background-color: #02669C;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.in:hover {
+    background-color: white;
+}
+
+.in:hover .linkedin {
+    color: #02669C;
+}
+
+.wei {
+    background-color: #DB322E;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.wei:hover {
+    background-color: white;
+}
+
+.wei:hover .weibo {
+    color: #DB322E;
+}
+
+.insta {
+    background-color: #386DA0;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.insta:hover {
+    background-color: white;
+}
+
+.insta:hover .instagram {
+    color: #386DA0;
+
+}
+
+.ml {
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.ml:hover {
+    background-color: white;
+}
+
+.ml:hover .m {
+    color: black;
+}
+
+.cmnt {
+    background-color: #D8342A;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.cmnt:hover {
+    background-color: white;
+}
+
+.cmnt:hover .comment {
+    color: #D8342A;
+}
+
+.cp {
+    line-height: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.cp a {
+    text-decoration: none;
+    color: #a3cbcd;
+}
+
+.cp a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.cspn {
+    margin-right: 8px;
+
+}
+
+.cspn a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+/* contact section end here  */
+
+/* media quary for androide */
+
+@media screen and (max-width:600px) {
+    [class*='col-']{
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+    .logo{
+        width: 70px;
+        height: 70px;
+    }  
+}
+/* media query for tablet */
+@media screen and (min-width:601px) and(max-width:990px) {
+[class*="col-"]{
+    width: 50%;
+}
+    
+}
